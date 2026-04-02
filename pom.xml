@@ -35,6 +35,8 @@
             <groupId>sn.isi.l3gl.core</groupId>
             <artifactId>product-core</artifactId>
             <version>0.3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/product-core-0.3.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -66,10 +68,10 @@
         </dependency>
     </dependencies>
     <repositories>
-        <repository>
-            <id>nexus-releases</id>
-            <url>http://localhost:8081/repository/maven-releases/</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>nexus-releases</id>-->
+<!--            <url>http://localhost:8081/repository/maven-releases/</url>-->
+<!--        </repository>-->
     </repositories>
 
     <build>
